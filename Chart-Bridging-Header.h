@@ -1,0 +1,13 @@
+//
+//  Chart-Bridging-Header.h
+//  
+//
+//  Created by Vincent Budrovich on 8/10/15.
+//
+//
+
+#ifndef _Chart_Bridging_Header_h
+#define _Chart_Bridging_Header_h
+
+
+#endif

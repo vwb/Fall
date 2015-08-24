@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D31AC62C1B775CFB0033EF6F /* MusicClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31AC62B1B775CFB0033EF6F /* MusicClass.swift */; };
+		D31AC6301B77687F0033EF6F /* FallGameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31AC62F1B77687F0033EF6F /* FallGameOverScene.swift */; };
+		D31EDD111B7DE1C3005E5E6D /* CustomSongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31EDD101B7DE1C3005E5E6D /* CustomSongScene.swift */; };
+		D325440C1B7B608800F82360 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D325440B1B7B608800F82360 /* GameScene.swift */; };
 		D3261AF51B67F78F00D46FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3261AF41B67F78F00D46FEC /* AppDelegate.swift */; };
 		D3261AF71B67F78F00D46FEC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3261AF61B67F78F00D46FEC /* GameScene.sks */; };
-		D3261AF91B67F78F00D46FEC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3261AF81B67F78F00D46FEC /* GameScene.swift */; };
 		D3261AFB1B67F78F00D46FEC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3261AFA1B67F78F00D46FEC /* GameViewController.swift */; };
 		D3261AFE1B67F78F00D46FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3261AFC1B67F78F00D46FEC /* Main.storyboard */; };
 		D3261B001B67F78F00D46FEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3261AFF1B67F78F00D46FEC /* Images.xcassets */; };
 		D3261B031B67F78F00D46FEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3261B011B67F78F00D46FEC /* LaunchScreen.xib */; };
 		D3261B0F1B67F78F00D46FEC /* FallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3261B0E1B67F78F00D46FEC /* FallTests.swift */; };
+		D3294B101B7D0DD9005C1493 /* OratorStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3294B0F1B7D0DD9005C1493 /* OratorStd.otf */; };
+		D3294B121B7D19C4005C1493 /* BlockLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3294B111B7D19C4005C1493 /* BlockLogic.swift */; };
+		D33E2A091B75095100B718C8 /* FallStartGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33E2A081B75095100B718C8 /* FallStartGameScene.swift */; };
+		D34874971B8A972D009840D0 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34874961B8A972D009840D0 /* Block.swift */; };
+		D34874A31B8A9815009840D0 /* beeKoo mix (ft. Forensic)-Lasswell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D34874981B8A9815009840D0 /* beeKoo mix (ft. Forensic)-Lasswell.mp3 */; };
+		D34874A41B8A9815009840D0 /* Blue Circles (ft. CSoul)-unreal_dm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D34874991B8A9815009840D0 /* Blue Circles (ft. CSoul)-unreal_dm.mp3 */; };
+		D34874A51B8A9815009840D0 /* Disco Medusae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D348749A1B8A9815009840D0 /* Disco Medusae.mp3 */; };
+		D34874A61B8A9815009840D0 /* Latin Industries.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D348749B1B8A9815009840D0 /* Latin Industries.mp3 */; };
+		D34874A71B8A9815009840D0 /* Maccary Bay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D348749C1B8A9815009840D0 /* Maccary Bay.mp3 */; };
+		D34874A81B8A9815009840D0 /* On the Bean (Petite Fleur Remix) - Coleman Hawkins, Bean & The Boys.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D348749D1B8A9815009840D0 /* On the Bean (Petite Fleur Remix) - Coleman Hawkins, Bean & The Boys.mp3 */; };
+		D34874A91B8A9815009840D0 /* Shebbe_-_Could_Be_(Shebbe_Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D348749E1B8A9815009840D0 /* Shebbe_-_Could_Be_(Shebbe_Remix).mp3 */; };
+		D34874AA1B8A9815009840D0 /* smeerch_-_Ophelia_s_Song_(Smeerch_Club_Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D348749F1B8A9815009840D0 /* smeerch_-_Ophelia_s_Song_(Smeerch_Club_Remix).mp3 */; };
+		D34874AB1B8A9815009840D0 /* The Long Goodbye-John Pazdan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D34874A01B8A9815009840D0 /* The Long Goodbye-John Pazdan.mp3 */; };
+		D34874AC1B8A9815009840D0 /* Urbana-Metronica (ft. Morusque, Jeris, CSoul, Alex Beroza)-spinningmerkaba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D34874A11B8A9815009840D0 /* Urbana-Metronica (ft. Morusque, Jeris, CSoul, Alex Beroza)-spinningmerkaba.mp3 */; };
+		D34874AD1B8A9815009840D0 /* Your Call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D34874A21B8A9815009840D0 /* Your Call.mp3 */; };
+		D34874AF1B8BC451009840D0 /* AlexBeroza_-_Spinnin_.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D34874AE1B8BC451009840D0 /* AlexBeroza_-_Spinnin_.mp3 */; };
+		D3A7A8581B78B30900204C24 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A7A8571B78B30900204C24 /* Song.swift */; };
+		D3B558011B7A537E00F50D1E /* SelectScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B558001B7A537E00F50D1E /* SelectScene.swift */; };
+		D3D461451B87628C000816B0 /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D461441B87628C000816B0 /* SettingsScene.swift */; };
+		D7B84AA3BA722A98CC3E1061 /* libPods-Fall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5849C3106CEB11E533E794 /* libPods-Fall.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B5849C3106CEB11E533E794 /* libPods-Fall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B55B9D782CABE26208F6CD6 /* Pods-Fall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fall.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fall/Pods-Fall.release.xcconfig"; sourceTree = "<group>"; };
+		4303C6B93DCF4F22DF3C5AF7 /* Pods-Fall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fall/Pods-Fall.debug.xcconfig"; sourceTree = "<group>"; };
+		D31AC62B1B775CFB0033EF6F /* MusicClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicClass.swift; sourceTree = "<group>"; };
+		D31AC62F1B77687F0033EF6F /* FallGameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallGameOverScene.swift; sourceTree = "<group>"; };
+		D31EDD101B7DE1C3005E5E6D /* CustomSongScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSongScene.swift; sourceTree = "<group>"; };
+		D3237A5B1B7926F6002E7C1B /* Chart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chart-Bridging-Header.h"; sourceTree = "<group>"; };
+		D325440B1B7B608800F82360 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D3261AEF1B67F78F00D46FEC /* Fall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3261AF31B67F78F00D46FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3261AF41B67F78F00D46FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3261AF61B67F78F00D46FEC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D3261AF81B67F78F00D46FEC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D3261AFA1B67F78F00D46FEC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D3261AFD1B67F78F00D46FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3261AFF1B67F78F00D46FEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -40,6 +70,25 @@
 		D3261B081B67F78F00D46FEC /* FallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3261B0D1B67F78F00D46FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3261B0E1B67F78F00D46FEC /* FallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallTests.swift; sourceTree = "<group>"; };
+		D3294B0F1B7D0DD9005C1493 /* OratorStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OratorStd.otf; sourceTree = "<group>"; };
+		D3294B111B7D19C4005C1493 /* BlockLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockLogic.swift; sourceTree = "<group>"; };
+		D33E2A081B75095100B718C8 /* FallStartGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallStartGameScene.swift; sourceTree = "<group>"; };
+		D34874961B8A972D009840D0 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		D34874981B8A9815009840D0 /* beeKoo mix (ft. Forensic)-Lasswell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "beeKoo mix (ft. Forensic)-Lasswell.mp3"; path = "Music Assets/beeKoo mix (ft. Forensic)-Lasswell.mp3"; sourceTree = "<group>"; };
+		D34874991B8A9815009840D0 /* Blue Circles (ft. CSoul)-unreal_dm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Blue Circles (ft. CSoul)-unreal_dm.mp3"; path = "Music Assets/Blue Circles (ft. CSoul)-unreal_dm.mp3"; sourceTree = "<group>"; };
+		D348749A1B8A9815009840D0 /* Disco Medusae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Disco Medusae.mp3"; path = "Music Assets/Disco Medusae.mp3"; sourceTree = "<group>"; };
+		D348749B1B8A9815009840D0 /* Latin Industries.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Latin Industries.mp3"; path = "Music Assets/Latin Industries.mp3"; sourceTree = "<group>"; };
+		D348749C1B8A9815009840D0 /* Maccary Bay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Maccary Bay.mp3"; path = "Music Assets/Maccary Bay.mp3"; sourceTree = "<group>"; };
+		D348749D1B8A9815009840D0 /* On the Bean (Petite Fleur Remix) - Coleman Hawkins, Bean & The Boys.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "On the Bean (Petite Fleur Remix) - Coleman Hawkins, Bean & The Boys.mp3"; path = "Music Assets/On the Bean (Petite Fleur Remix) - Coleman Hawkins, Bean & The Boys.mp3"; sourceTree = "<group>"; };
+		D348749E1B8A9815009840D0 /* Shebbe_-_Could_Be_(Shebbe_Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Shebbe_-_Could_Be_(Shebbe_Remix).mp3"; path = "Music Assets/Shebbe_-_Could_Be_(Shebbe_Remix).mp3"; sourceTree = "<group>"; };
+		D348749F1B8A9815009840D0 /* smeerch_-_Ophelia_s_Song_(Smeerch_Club_Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "smeerch_-_Ophelia_s_Song_(Smeerch_Club_Remix).mp3"; path = "Music Assets/smeerch_-_Ophelia_s_Song_(Smeerch_Club_Remix).mp3"; sourceTree = "<group>"; };
+		D34874A01B8A9815009840D0 /* The Long Goodbye-John Pazdan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "The Long Goodbye-John Pazdan.mp3"; path = "Music Assets/The Long Goodbye-John Pazdan.mp3"; sourceTree = "<group>"; };
+		D34874A11B8A9815009840D0 /* Urbana-Metronica (ft. Morusque, Jeris, CSoul, Alex Beroza)-spinningmerkaba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Urbana-Metronica (ft. Morusque, Jeris, CSoul, Alex Beroza)-spinningmerkaba.mp3"; path = "Music Assets/Urbana-Metronica (ft. Morusque, Jeris, CSoul, Alex Beroza)-spinningmerkaba.mp3"; sourceTree = "<group>"; };
+		D34874A21B8A9815009840D0 /* Your Call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Your Call.mp3"; path = "Music Assets/Your Call.mp3"; sourceTree = "<group>"; };
+		D34874AE1B8BC451009840D0 /* AlexBeroza_-_Spinnin_.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "AlexBeroza_-_Spinnin_.mp3"; path = "Music Assets/AlexBeroza_-_Spinnin_.mp3"; sourceTree = "<group>"; };
+		D3A7A8571B78B30900204C24 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		D3B558001B7A537E00F50D1E /* SelectScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectScene.swift; sourceTree = "<group>"; };
+		D3D461441B87628C000816B0 /* SettingsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B84AA3BA722A98CC3E1061 /* libPods-Fall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +110,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6825E3CC65D3ED670A8C1A0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B5849C3106CEB11E533E794 /* libPods-Fall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FFD9A3361C3838FBD27F97C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4303C6B93DCF4F22DF3C5AF7 /* Pods-Fall.debug.xcconfig */,
+				2B55B9D782CABE26208F6CD6 /* Pods-Fall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D3261AE61B67F78F00D46FEC = {
 			isa = PBXGroup;
 			children = (
 				D3261AF11B67F78F00D46FEC /* Fall */,
 				D3261B0B1B67F78F00D46FEC /* FallTests */,
 				D3261AF01B67F78F00D46FEC /* Products */,
+				7FFD9A3361C3838FBD27F97C /* Pods */,
+				6825E3CC65D3ED670A8C1A0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +150,17 @@
 		D3261AF11B67F78F00D46FEC /* Fall */ = {
 			isa = PBXGroup;
 			children = (
-				D3261AF41B67F78F00D46FEC /* AppDelegate.swift */,
-				D3261AF61B67F78F00D46FEC /* GameScene.sks */,
-				D3261AF81B67F78F00D46FEC /* GameScene.swift */,
+				D34874961B8A972D009840D0 /* Block.swift */,
+				D325440B1B7B608800F82360 /* GameScene.swift */,
+				D31EDD101B7DE1C3005E5E6D /* CustomSongScene.swift */,
+				D3A7A8571B78B30900204C24 /* Song.swift */,
+				D31AC62B1B775CFB0033EF6F /* MusicClass.swift */,
+				D31AC62F1B77687F0033EF6F /* FallGameOverScene.swift */,
+				D3D461441B87628C000816B0 /* SettingsScene.swift */,
+				D3294B111B7D19C4005C1493 /* BlockLogic.swift */,
+				D3B558001B7A537E00F50D1E /* SelectScene.swift */,
+				D33E2A081B75095100B718C8 /* FallStartGameScene.swift */,
 				D3261AFA1B67F78F00D46FEC /* GameViewController.swift */,
-				D3261AFC1B67F78F00D46FEC /* Main.storyboard */,
-				D3261AFF1B67F78F00D46FEC /* Images.xcassets */,
-				D3261B011B67F78F00D46FEC /* LaunchScreen.xib */,
 				D3261AF21B67F78F00D46FEC /* Supporting Files */,
 			);
 			path = Fall;
@@ -96,7 +169,26 @@
 		D3261AF21B67F78F00D46FEC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D3261AFC1B67F78F00D46FEC /* Main.storyboard */,
+				D3237A5B1B7926F6002E7C1B /* Chart-Bridging-Header.h */,
+				D3261AF61B67F78F00D46FEC /* GameScene.sks */,
+				D3294B0F1B7D0DD9005C1493 /* OratorStd.otf */,
+				D3261B011B67F78F00D46FEC /* LaunchScreen.xib */,
+				D3261AFF1B67F78F00D46FEC /* Images.xcassets */,
+				D3261AF41B67F78F00D46FEC /* AppDelegate.swift */,
 				D3261AF31B67F78F00D46FEC /* Info.plist */,
+				D34874981B8A9815009840D0 /* beeKoo mix (ft. Forensic)-Lasswell.mp3 */,
+				D34874AE1B8BC451009840D0 /* AlexBeroza_-_Spinnin_.mp3 */,
+				D34874991B8A9815009840D0 /* Blue Circles (ft. CSoul)-unreal_dm.mp3 */,
+				D348749A1B8A9815009840D0 /* Disco Medusae.mp3 */,
+				D348749B1B8A9815009840D0 /* Latin Industries.mp3 */,
+				D348749C1B8A9815009840D0 /* Maccary Bay.mp3 */,
+				D348749D1B8A9815009840D0 /* On the Bean (Petite Fleur Remix) - Coleman Hawkins, Bean & The Boys.mp3 */,
+				D348749E1B8A9815009840D0 /* Shebbe_-_Could_Be_(Shebbe_Remix).mp3 */,
+				D348749F1B8A9815009840D0 /* smeerch_-_Ophelia_s_Song_(Smeerch_Club_Remix).mp3 */,
+				D34874A01B8A9815009840D0 /* The Long Goodbye-John Pazdan.mp3 */,
+				D34874A11B8A9815009840D0 /* Urbana-Metronica (ft. Morusque, Jeris, CSoul, Alex Beroza)-spinningmerkaba.mp3 */,
+				D34874A21B8A9815009840D0 /* Your Call.mp3 */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3261B121B67F78F00D46FEC /* Build configuration list for PBXNativeTarget "Fall" */;
 			buildPhases = (
+				7E77B6EFA5D32E0D52C97F01 /* Check Pods Manifest.lock */,
 				D3261AEB1B67F78F00D46FEC /* Sources */,
 				D3261AEC1B67F78F00D46FEC /* Frameworks */,
 				D3261AED1B67F78F00D46FEC /* Resources */,
+				BBFD5100A2536E24258DAEB1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,6 +261,7 @@
 				TargetAttributes = {
 					D3261AEE1B67F78F00D46FEC = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = TZCDP4JNK5;
 					};
 					D3261B071B67F78F00D46FEC = {
 						CreatedOnToolsVersion = 6.4;
@@ -198,10 +293,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34874A91B8A9815009840D0 /* Shebbe_-_Could_Be_(Shebbe_Remix).mp3 in Resources */,
+				D34874AF1B8BC451009840D0 /* AlexBeroza_-_Spinnin_.mp3 in Resources */,
+				D3294B101B7D0DD9005C1493 /* OratorStd.otf in Resources */,
 				D3261B031B67F78F00D46FEC /* LaunchScreen.xib in Resources */,
+				D34874A81B8A9815009840D0 /* On the Bean (Petite Fleur Remix) - Coleman Hawkins, Bean & The Boys.mp3 in Resources */,
+				D34874AB1B8A9815009840D0 /* The Long Goodbye-John Pazdan.mp3 in Resources */,
 				D3261B001B67F78F00D46FEC /* Images.xcassets in Resources */,
+				D34874AD1B8A9815009840D0 /* Your Call.mp3 in Resources */,
+				D34874AC1B8A9815009840D0 /* Urbana-Metronica (ft. Morusque, Jeris, CSoul, Alex Beroza)-spinningmerkaba.mp3 in Resources */,
 				D3261AF71B67F78F00D46FEC /* GameScene.sks in Resources */,
 				D3261AFE1B67F78F00D46FEC /* Main.storyboard in Resources */,
+				D34874A71B8A9815009840D0 /* Maccary Bay.mp3 in Resources */,
+				D34874AA1B8A9815009840D0 /* smeerch_-_Ophelia_s_Song_(Smeerch_Club_Remix).mp3 in Resources */,
+				D34874A51B8A9815009840D0 /* Disco Medusae.mp3 in Resources */,
+				D34874A41B8A9815009840D0 /* Blue Circles (ft. CSoul)-unreal_dm.mp3 in Resources */,
+				D34874A31B8A9815009840D0 /* beeKoo mix (ft. Forensic)-Lasswell.mp3 in Resources */,
+				D34874A61B8A9815009840D0 /* Latin Industries.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +322,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E77B6EFA5D32E0D52C97F01 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBFD5100A2536E24258DAEB1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fall/Pods-Fall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3261AEB1B67F78F00D46FEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3261AF91B67F78F00D46FEC /* GameScene.swift in Sources */,
+				D31EDD111B7DE1C3005E5E6D /* CustomSongScene.swift in Sources */,
+				D325440C1B7B608800F82360 /* GameScene.swift in Sources */,
+				D34874971B8A972D009840D0 /* Block.swift in Sources */,
+				D3A7A8581B78B30900204C24 /* Song.swift in Sources */,
+				D31AC62C1B775CFB0033EF6F /* MusicClass.swift in Sources */,
+				D33E2A091B75095100B718C8 /* FallStartGameScene.swift in Sources */,
+				D3294B121B7D19C4005C1493 /* BlockLogic.swift in Sources */,
+				D3B558011B7A537E00F50D1E /* SelectScene.swift in Sources */,
+				D3D461451B87628C000816B0 /* SettingsScene.swift in Sources */,
 				D3261AFB1B67F78F00D46FEC /* GameViewController.swift in Sources */,
 				D3261AF51B67F78F00D46FEC /* AppDelegate.swift in Sources */,
+				D31AC6301B77687F0033EF6F /* FallGameOverScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,21 +498,35 @@
 		};
 		D3261B131B67F78F00D46FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4303C6B93DCF4F22DF3C5AF7 /* Pods-Fall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Fall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fall/Chart-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D3261B141B67F78F00D46FEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B55B9D782CABE26208F6CD6 /* Pods-Fall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Vincent Budrovich (TZCDP4JNK5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Vincent Budrovich (TZCDP4JNK5)";
 				INFOPLIST_FILE = Fall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fall/Chart-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -419,6 +583,7 @@
 				D3261B141B67F78F00D46FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3261B151B67F78F00D46FEC /* Build configuration list for PBXNativeTarget "FallTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +592,7 @@
 				D3261B171B67F78F00D46FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
